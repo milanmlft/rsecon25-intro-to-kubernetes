@@ -122,3 +122,8 @@ docker run -p 3000:3000 kubechaos:v1
 Visit: **[http://localhost:3000](http://localhost:3000)**
 
 > **Podman users:** Replace `docker` with `podman` in the above commands.
+
+## 💡 Optional - Running poddestroy.js by setting docker-env --build-arg
+
+eval $(minikube -p minikube docker-env)
+docker build -t local/kubechaos:v5  --build-arg APP=poddestroy.js image
