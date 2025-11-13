@@ -40,6 +40,8 @@ spec:
               configMapKeyRef:
                 name: kubechaos-style
                 key: border_size
+          - name: ENABLE_POD_DESTROY
+            value: "false"
           #can you edit this to add the BORDER_STYLE env variable from the configMap
         volumeMounts:
         - name: style-env

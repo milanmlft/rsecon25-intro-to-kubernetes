@@ -2,9 +2,9 @@
   "name": "kubechaos",
   "version": "1.0.0",
   "description": "A simple hello world app for RSECon",
-  "main": "$APP",
+  "main": "app.js",
   "scripts": {
-    "start": "node $APP"
+    "start": "node app.js"
   },
   "type": "module",
   "author": "Alex Lubbock <alex.lubbock@rfi.ac.uk>",
